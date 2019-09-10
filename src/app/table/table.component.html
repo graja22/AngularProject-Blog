@@ -1,0 +1,28 @@
+<div class="row custom"></div>
+<br />
+<div class="row">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <table class="table">
+       <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let ba of ta;">
+            <th scope="row">{{ba.id}}</th>
+            <td>{{ba.firstname}}</td>
+            <td>{{ba.lastname}}</td>
+            <td><img src="{{ba.avatar}}"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+</div>
